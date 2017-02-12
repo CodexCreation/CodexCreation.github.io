@@ -1,0 +1,56 @@
+/*LEAVE THIS ALONE*/
+/*This affects the heading.*/
+#heading {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*The next classes and edits of CSS affect the menu bar*/
+
+/*Taskbar is a list and this affects the over all list*/
+/*Removes bullet points, removes default margins, 
+  fills the flow, and sets the background color*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+/*this moves the entire list to the left*/
+li {
+    float: left;
+}
+
+/*Display block treats it like a text*/
+/*In the list the text is white and centered*/
+/*Padding sets the text into its possition*/
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/*Highlights the link to the page that we are currently on*/
+.active {
+	color: #333; 
+    background-color: #4CAF50;
+}
+ /*Tells the webpage to do something different if it is 
+ 	this*/
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+/*This affects the text*/
+h1 {
+	text-align: center;
+	font-family: Georgia;
+	font-weight: normal;
+	font-size: 40px;
+	text-decoration: underline;
+}
